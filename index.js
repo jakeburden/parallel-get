@@ -9,7 +9,6 @@ function parallelGet (arr, cb) {
 
   arr.forEach(function (url) {
     getUrls.push(function (cb) {
-      console.log(url)
       get(url, function (err, res) {
         if (err) return cb(err)
         cb(null, res)
@@ -28,7 +27,6 @@ function parallelGetConcat (arr, cb) {
 
   arr.forEach(function (url) {
     getUrls.push(function (cb) {
-      console.log(url)
       get.concat(url, function (err, res, data) {
         if (err) return cb(err)
         cb(null, data)
