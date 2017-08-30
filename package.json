@@ -1,12 +1,21 @@
 {
   "name": "parallel-get",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "http GET an array of urls in parallel",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
   },
-  "keywords": ["parallel", "get", "http", "run", "simple-http", "run-parallel", "streams", "buffers"],
+  "keywords": [
+    "parallel",
+    "get",
+    "http",
+    "run",
+    "simple-http",
+    "run-parallel",
+    "streams",
+    "buffers"
+  ],
   "author": "Jake Burden <@jekrb>",
   "license": "MIT",
   "dependencies": {
@@ -18,4 +27,3 @@
     "to2": "^1.0.0"
   }
 }
-
